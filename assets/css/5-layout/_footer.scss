@@ -1,0 +1,22 @@
+footer {
+
+a {
+
+color: $white;
+
+}
+
+p {
+	color: $white;
+}
+
+.copyright a {
+    color: $white !important;
+    text-decoration: underline;
+
+    &:hover {
+    	color: $secondary !important;
+    }
+}
+
+}

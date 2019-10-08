@@ -1,0 +1,23 @@
+.contact-section {
+  .social {
+    a {
+      text-align: center;
+      height: 3rem;
+      width: 3rem;
+      background: fade-out($white, 0.5);
+      border-radius: 100%;
+      line-height: 3rem;
+      color: $primary;
+      border: 1px solid $primary;
+      &:hover {
+        color: $primary;
+              background: fade-out($white, 0.2);
+
+      }
+      &:active {
+        color: $white;
+
+      }
+    }
+  }
+}

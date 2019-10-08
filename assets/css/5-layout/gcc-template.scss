@@ -1,0 +1,57 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+@import 'navbar.scss';
+@import 'masthead.scss';
+@import 'buttons.scss';
+@import 'about.scss';
+@import 'projects.scss';
+@import 'signup.scss';
+@import 'contact.scss';
+@import 'footer.scss';
+
+body {
+  letter-spacing: 0.0625em;
+  font-family: $roboto;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: $primary;
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    color: darken($primary, 20%);
+  }
+}
+
+.bg-black {
+  background-color: $secondary !important;
+}
+
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+footer {
+  padding: 2rem 0;
+
+  .copyright {
+     a {
+      color: $white;
+      text-decoration: underline;
+      &:hover {
+        color: $black;
+      }
+    }
+  }
+}
+
